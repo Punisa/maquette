@@ -1,0 +1,283 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}/*установка шрифта*/
+
+header{/*Шапка*/
+  width: 100%;/*ширина*/
+  background: #000;/*цвет*/
+  display: flex;
+}
+
+.header_logo{/*Название с лево mycompany*/
+	text-transform: uppercase;/*заглавные буквы*/
+	color: #fff;
+	font-weight: 800;/*жирный шрифт*/
+	font-size: 24px;/*размер шрифта*/
+	cursor: pointer;
+	margin-top: 56px;/*сверху*/
+	margin-left: 12%;/*с лево на право*/   
+}
+
+nav{/*меню nav-навигация*/
+	margin-top: 54px;/*сверху*/
+	margin-left: 24%;/*с лево на право*/
+}
+
+.topnav a{/*менюшка*/
+	color: #fff;/*цвет*/
+	text-align: center;/*по центу*/
+	padding: 12px 16px;/*размер с лево,с право*/
+	font-size: 14px;/*размер шрифта*/
+	font-weight: bold;
+}
+
+.topnav .icon{
+	display: none;
+}/*убралось три черточки*/
+
+main{/*главная*/
+	display: flex;/*управление дисплем*/
+	flex-direction: column;/*в колонку вертикально*/ 
+	width: 100%;
+}
+
+main .main_welcome{/*располодение текста mycompany*/
+	background: #000;/*цвет*/
+	text-align: center;/* расположение по середине*/
+	padding: 200px 0 410px 0;/*размер вер,право лево,
+	низ */
+}
+
+main .main_welcome p{/*управление параграфом р*/
+	color: #999999;/*цвет*/
+	font-size: 20px;/*размер шрифта*/
+}
+
+main .main_welcome h1{/*управление названием h1*/
+	color: #999999; /*цвет*/
+	font-size: 44px;/*размер шрифта*/
+}
+
+.mycompany{
+	color: #fcac45;/*цвет*/ 
+}
+
+.wrapper{
+	width: 76%;/*шрифт*/
+	margin: 0 auto;
+}
+
+main .main_about{
+	display: flex;
+	padding: 100px 0 100px 0;/*верх лево низ право*/ 
+	margin-left:-70px 
+}
+
+.about_right{
+	margin-left: 120px;  
+}
+
+.about_right h1{
+  	display: inline-block;
+  	border-bottom: 3px solid #fcac45;
+	padding-bottom: 20px;
+}
+
+.about_right p{
+	margin: 30px 0 50px 0;
+	color: #6c6c6c
+}
+
+.about_right li{
+	background: url(img/2.png) 0px no-repeat;
+	padding-left: 25px;
+}
+
+.main_team{
+	background: #000;
+	text-align: center;
+	padding: 100px 0 165px 0;
+	color:#fff;
+}
+.main_team h1{
+	font-size: 44px;
+	padding-bottom:30px; 
+}
+.line{
+	width: 100px;
+	height: 3px;
+	background: #fcac45;
+	position: relative;
+	left: 44.5%;
+	margin-bottom: 85px;
+}
+.photo{
+	background: #d7d7d7;
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;/*кружочек*/
+	margin:20px auto; 
+}
+.team_cards{
+	display: flex;
+}
+.card{
+	margin: 0 20px;
+}
+.name{
+	font-size: 20px;
+	margin-bottom: 10px;
+}	
+.pasition{
+	font-size: 16px;
+	margin-bottom: 35px;
+}
+.about_position{
+	font-size: 14px;
+}
+
+.services_cards{
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 20px;/*размер интервалов*/
+}
+.main_services h1{
+	text-align: center;
+	padding: 100px 0 30px 0;
+
+}
+.main_services p{
+	color:#6c6c6c;
+	margin-bottom: 100px;
+}
+.services_card h4{
+	margin-top: 20px; 
+	margin-bottom: 15px;
+}
+.main_clients{
+	background: #000;
+	padding: 100px 0 205px 0;
+	color: #fff;
+	text-align: center;
+}
+.main_clients h1{
+	margin-bottom:30px; 
+}
+.main_clients img{
+	margin-top:10px; 
+	margin-left:30px; 
+}
+
+
+
+.main_testimonials{
+	background: #000;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 170px; 
+}
+
+.main_testimonials .teastimonial{
+	text-transform: uppercase;
+	margin-bottom: 50px; 
+}
+
+.main_testimonials h1{
+	text-transform: uppercase; 
+	margin-top:100px;
+	margin-bottom: 30px; 
+}
+
+.main_work{
+	text-align: center;
+	padding: 100px 0 100px 0;
+}
+.main_workh1 h1{
+	margin-bottom: 30px;
+}
+.main_work p{
+	margin-bottom: 174px;
+	color: #6c6c6c;
+}
+.line1 img{
+	width: 235px;
+	height: 215px;
+}
+.line2 img{
+	width: 235px;
+	height: 215px;
+}
+.line3 img{
+	width: 235px;
+	height: 215px; 
+}
+
+
+
+.cotact_wrapper{
+	width: 753px;
+	margin:0 auto;
+	color: #636363; 
+}
+
+.red{
+	color: red;
+}
+.form_inputs{
+	display: flex;
+
+}
+input{
+	width: 360px;
+	height: 40px;
+	font-size:20px;
+	margin-bottom: 30px; 
+}
+input: first-of-type{
+	margin-right:23px; 
+}
+textarea{
+	width: 100%;
+	height: 163px;
+}
+
+input, textarea{
+	border: 1px solid #999999;
+
+}
+.button_block{
+	display: flex;
+	justify-content: flex-end;
+}
+input[type=submit]{
+	width: 165px;
+	height: 40px;
+	background: #fcac45;
+	color: #fff;
+	margin-right:0;
+	margin-top: 30px; 
+}
+.contaсt_form {
+	padding: 100px 0 100px 0;
+}
+.contaсt_form h1,p{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.contaсt_form h1{
+	color: #000
+}
